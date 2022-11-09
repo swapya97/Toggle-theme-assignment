@@ -1,4 +1,4 @@
-import info from './components/Info';
+
 import './App.css';
 import Element from './components/Element'
 import {useState,useEffect} from 'react';
