@@ -1,0 +1,60 @@
+.light {
+  --background-color: rgb(255, 255, 255);
+  --main-heading: rgb(37, 37, 37);
+  --para-color: rgb(58, 58, 58);
+  --title-color: rgb(214, 33, 109);
+  --btn-color: rgb(214, 33, 109);
+}
+.dark {
+  --background-color: rgb(11, 40, 68);
+  --main-heading: rgb(255, 255, 255);
+  --para-color: rgb(145, 145, 145);
+  --title-color: rgb(230, 120, 166);
+  --btn-color: rgb(230, 120, 166);
+}
+
+body {
+  background-color: var(--background-color);
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  background-color: var(--btn-color);
+  color: var(--background-color);
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  border: transparent;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.element {
+  margin-top: 60px;
+  line-height: 2.5vh;
+  margin-left: 27.5vw;
+}
+.heading {
+  color: var(--main-heading);
+}
+.title {
+  color: var(--title-color);
+}
+.info {
+  font-size: 13px;
+  color: var(--para-color);
+}
+@media only screen and (max-width: 768px) {
+  .element {
+    margin-left: 140px;
+  }
+}
