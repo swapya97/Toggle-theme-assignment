@@ -1,4 +1,4 @@
-import info from './Info';
+
 const Element=(props)=>{
     return(
         <div className="element">
